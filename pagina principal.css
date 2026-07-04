@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.div-portada{
+    height: 50%;
+    width: 100%;
+}
+.imagen-portada{
+    
+    width: 100%;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.tarjeta {
+    width: 250px;
+    height: 300px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    word-break: break-word;
+    flex-direction: column;
+}
+.tarjeta p {
+    text-align: center;
+    margin-top: 0;
+}
+.tarjeta img{
+    width: 140px;
+    height: 140px;
+
+    margin-top: 20px;
+
+    border-radius: 50%;
+    object-fit: cover;
+
+    border: 4px solid #ffffff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.3);
+}
+.link-tarjeta {
+    text-decoration: none;
+    color: inherit;
+}
+.tarjeta {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.tarjeta:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,.3);
+}
